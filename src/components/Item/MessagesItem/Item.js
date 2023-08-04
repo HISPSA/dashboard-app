@@ -75,12 +75,12 @@ const MessagesItem = ({ messages, item, dashboardMode }) => {
 
     return (
         <>
-            <ItemHeader
+         {/*   <ItemHeader
                 title={i18n.t('Messages')}
                 itemId={item.id}
                 dashboardMode={dashboardMode}
                 isShortened={item.shortened}
-            />
+            /> */}
             <Divider margin={`0 0 ${spacers.dp4} 0`} />
             {messages.length > 0 && (
                 <div className="dashboard-item-content">

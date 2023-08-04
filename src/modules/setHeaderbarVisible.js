@@ -1,6 +1,6 @@
 export const setHeaderbarVisible = show => {
     const header = document.getElementsByTagName('header')[0]
-    if (show) {
+    if (false) {
         header.classList.remove('hidden')
     } else {
         header.classList.add('hidden')

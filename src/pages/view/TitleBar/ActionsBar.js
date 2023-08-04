@@ -229,7 +229,7 @@ const ViewActions = ({
                     starred={starred}
                     onClick={onToggleStarredDashboard}
                 />
-                <div className={classes.strip}>
+             {/*   <div className={classes.strip}>
                     {userAccess.update ? (
                         <OfflineTooltip>
                             <Button
@@ -258,7 +258,7 @@ const ViewActions = ({
                     />
                     {getMoreButton(classes.moreButton, false)}
                     {getMoreButton(classes.moreButtonSmall, true)}
-                </div>
+                    </div> */}
             </div>
             {id && sharingDialogIsOpen && (
                 <SharingDialog

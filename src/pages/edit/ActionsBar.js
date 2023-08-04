@@ -192,7 +192,7 @@ const EditBar = ({ dashboard, ...props }) => {
     }
 
     const renderActionButtons = () => (
-        <ButtonStrip>
+       {/* <ButtonStrip>
             {!props.isPrintPreviewView && (
                 <OfflineTooltip
                     content={i18n.t('Cannot save this dashboard while offline')}
@@ -256,6 +256,7 @@ const EditBar = ({ dashboard, ...props }) => {
                     </OfflineTooltip>
                 )}
         </ButtonStrip>
+        */}
     )
 
     if (redirectUrl) {

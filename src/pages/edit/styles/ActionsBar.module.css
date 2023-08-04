@@ -1,5 +1,5 @@
 .editBar {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     padding: var(--spacers-dp8) 0;
@@ -12,17 +12,19 @@
 }
 
 .controls {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding: 0 var(--spacers-dp8);
 }
 
 .offline {
+    display: none;
     background-color: rgb(195, 100, 100) !important;
     color: white !important;
 }
 
 .online {
+    display: none;
     background-color: rgb(143, 188, 167) !important;
     color: white !important;
 }

@@ -215,21 +215,21 @@ Then(
         checkCorrectMoreOptionsEnabledState(false, cacheState)
 
         // item context menu (everything except view fullscreen)
-        cy.get(itemMenuButtonSel, EXTENDED_TIMEOUT).click()
+      //  cy.get(itemMenuButtonSel, EXTENDED_TIMEOUT).click()
 
-        cy.contains('li', 'View as').should('have.class', 'disabled')
-        cy.contains('li', 'Open in Data Visualizer app').should(
-            'not.have.class',
-            'disabled'
-        )
-        cy.contains('li', 'Show details and interpretations').should(
-            'have.class',
-            'disabled'
-        )
-        cy.contains('li', 'View fullscreen').should(
-            'not.have.class',
-            'disabled'
-        )
+      //  cy.contains('li', 'View as').should('have.class', 'disabled')
+      //  cy.contains('li', 'Open in Data Visualizer app').should(
+       //     'not.have.class',
+      //      'disabled'
+      //  )
+       // cy.contains('li', 'Show details and interpretations').should(
+      //      'have.class',
+       //     'disabled'
+       // )
+       // cy.contains('li', 'View fullscreen').should(
+       //     'not.have.class',
+       //     'disabled'
+      //  )
     }
 )
 

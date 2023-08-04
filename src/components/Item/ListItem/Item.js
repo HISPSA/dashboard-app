@@ -67,12 +67,12 @@ const ListItem = ({ item, dashboardMode, removeItem, updateItem }) => {
 
     return (
         <>
-            <ItemHeader
+          {/*  <ItemHeader
                 title={getItemTitle(item)}
                 itemId={item.id}
                 dashboardMode={dashboardMode}
                 isShortened={item.shortened}
-            />
+            /> */}
             <Divider margin={`0 0 ${spacers.dp4} 0`} />
             <div className="dashboard-item-content">
                 <ul className={classes.list}>

@@ -107,13 +107,13 @@ const ItemContextMenu = props => {
     ) : (
         <>
             <div ref={buttonRef}>
-                <Button
+             {/*   <Button
                     small
                     secondary
                     onClick={openMenu}
                     dataTest="dashboarditem-menu-button"
                     icon={<IconMore24 color={colors.grey700} />}
-                />
+                /> */}
             </div>
             {menuIsOpen && (
                 <Popover
@@ -122,7 +122,7 @@ const ItemContextMenu = props => {
                     arrow={false}
                     onClickOutside={closeMenu}
                 >
-                    <Menu dense>
+                  {/*  <Menu dense>
                         {canViewAs && !loadItemFailed && (
                             <>
                                 <ViewAsMenuItems
@@ -167,7 +167,7 @@ const ItemContextMenu = props => {
                                 onClick={toggleFullscreen}
                             />
                         )}
-                    </Menu>
+                    </Menu> */}
                 </Popover>
             )}
         </>

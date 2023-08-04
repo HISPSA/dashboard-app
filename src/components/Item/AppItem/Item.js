@@ -44,12 +44,12 @@ const AppItem = ({ dashboardMode, item, itemFilters }) => {
         <>
             {!hideTitle && (
                 <>
-                    <ItemHeader
+                   {/*} <ItemHeader
                         title={appDetails.name}
                         itemId={item.id}
                         dashboardMode={dashboardMode}
                         isShortened={item.shortened}
-                    />
+                    /> */}
                     <Divider margin={`0 0 ${spacers.dp4} 0`} />
                 </>
             )}
@@ -66,7 +66,7 @@ const AppItem = ({ dashboardMode, item, itemFilters }) => {
         </>
     ) : (
         <>
-            <ItemHeader title={`${appKey} app not found`} />
+          {/*  <ItemHeader title={`${appKey} app not found`} /> */}
             <Divider margin={`0 0 ${spacers.dp4} 0`} />
             <div
                 className="dashboard-item-content"

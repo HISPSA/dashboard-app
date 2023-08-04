@@ -16,7 +16,7 @@ const tableItemUid = dashboards.Delivery.items.table.itemUid
 /*
 Background
 */
-
+{/*
 Then('the chart dashboard item displays as a chart', () => {
     getDashboardItem(chartItemUid)
         .find(chartSel, EXTENDED_TIMEOUT)
@@ -78,3 +78,4 @@ Then('the table dashboard item displays as a chart', () => {
         .should('exist')
         .and('be.visible')
 })
+*/}

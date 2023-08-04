@@ -76,7 +76,7 @@ const Content = ({
                         closeDelay={100}
                         openDelay={400}
                     >
-                        <Button
+                      {/*   <Button
                             className={classes.newButton}
                             disabled={offline}
                             small
@@ -84,6 +84,7 @@ const Content = ({
                             onClick={enterNewMode}
                             dataTest="new-button"
                         />
+                    */}
                         {offline && <ComponentCover />}
                     </Tooltip>
                 </div>

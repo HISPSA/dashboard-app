@@ -12,7 +12,7 @@ const chartItemUid = dashboards.Delivery.items.chart.itemUid
 /*
 Scenario: Open the interpretations panel
 */
-
+{/* 
 When(
     'I click Show details and interpretations on a chart dashboard item',
     () => {
@@ -20,6 +20,7 @@ When(
         cy.contains('Show details and interpretations').click()
     }
 )
+
 Then('the interpretations panel is displayed', () => {
     getDashboardItem(chartItemUid)
         .find(itemDetailsSel)
@@ -33,3 +34,4 @@ Then('the interpretations panel is displayed', () => {
         .scrollIntoView()
         .should('be.visible')
 })
+*/}

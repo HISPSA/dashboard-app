@@ -17,7 +17,7 @@ const NotSupportedItem = ({ item, dashboardMode }) => {
                 itemId={item.id}
                 dashboardMode={dashboardMode}
                 isShortened={item.shortened}
-            />
+            /> 
             <div
                 style={{
                     display: 'flex',

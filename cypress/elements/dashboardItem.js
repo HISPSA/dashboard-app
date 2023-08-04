@@ -13,8 +13,7 @@ export const itemMenuButtonSel = '[data-test="dashboarditem-menu-button"]'
 export const getDashboardItem = itemUid =>
     cy.get(`[data-test="dashboarditem-${itemUid}"]`, EXTENDED_TIMEOUT)
 
-export const clickMenuButton = itemUid =>
-    getDashboardItem(itemUid).scrollIntoView().find(itemMenuButtonSel).click()
+export const clickMenuButton = itemUid =>    getDashboardItem(itemUid).scrollIntoView().find(itemMenuButtonSel).click()
 
 export const clickItemDeleteButton = itemUid =>
     getDashboardItem(itemUid)

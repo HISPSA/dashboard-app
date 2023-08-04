@@ -1,8 +1,8 @@
 const config = {
     type: 'app',
-    name: 'dashboard',
-    title: 'Dashboard',
-    coreApp: true,
+    name: 'afcdcdashboard',
+    title: 'Africa Dashboard 2.38',
+    coreApp: false,
 
     pwa: {
         enabled: true,
